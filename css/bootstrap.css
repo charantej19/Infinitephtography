@@ -4182,10 +4182,9 @@ a.list-group-item.active > .badge,
   }
 }
 .thumbnail {
-  padding: 4px;
   line-height: 1.428571429;
   background-color: #ffffff;
-  border: 1px solid #dddddd;
+  border: 0px solid #dddddd;
   border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -4686,13 +4685,12 @@ a.list-group-item:focus {
 }
 .close {
   position: absolute;
-  float: right;
   font-size: 30px;
   font-weight: bold;
   line-height: 1;
   color: #000000;
   text-shadow: 0 1px 0 #ffffff;
-  opacity: 0.4;
+  opacity: 0.3;
   filter: alpha(opacity=20);
 }
 .close:hover,
@@ -4700,11 +4698,11 @@ a.list-group-item:focus {
   color: #000000;
   text-decoration: none;
   cursor: pointer;
-  opacity: 0.8;
+  opacity: 0.7;
   filter: alpha(opacity=50);
 }
 button.close {
-  padding-left: 720px;
+  margin-left: 717px;
   padding-top: 7px;
   cursor: pointer;
   background: transparent;
