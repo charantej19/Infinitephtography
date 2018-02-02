@@ -362,6 +362,19 @@ span.valign {
 
 
 /* Contact */
+
+address { 
+    
+    display: block;
+    font-style: italic;
+    color:#428bca;
+}
+
+
+
+
+
+
 #contact {
 background:none repeat scroll 0 0 rgba(0, 0, 0, 0.79);
 color:#f1f1f1;
